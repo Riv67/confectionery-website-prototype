@@ -105,6 +105,15 @@ section {
   margin:  auto;
   display: flex;
   padding-bottom: 2rem;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+.recipes:hover,
+.careers:hover,
+.fundraising:hover,
+.events:hover {
+  background-color: #cdb6a2;
 }
 
 .img-flex {
@@ -114,7 +123,7 @@ section {
 
 .card-img {
   width: 30%;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 section h2 {
@@ -127,8 +136,6 @@ section h2 {
 section p {
   margin: 0;
 }
-
-
 
 
 
@@ -181,6 +188,25 @@ section p {
     right: 1em;
   }
 
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .recipes,
+  .careers,
+  .fundraising,
+  .events {
+    width: 45%;
+    border-radius: 10px;
+    margin: .5rem;
+    padding: .5rem;
+  }
+
+  .card-img {
+    width: 40%;
+    padding-right: .5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -209,10 +235,6 @@ section p {
   nav ul {
     text-align: right;
     justify-content: flex-end;
-  }
-
-  .wrapper {
-    display: flex;
   }
 
 }
