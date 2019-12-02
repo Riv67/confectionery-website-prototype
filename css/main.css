@@ -68,6 +68,7 @@ nav a:hover {
   border: 3px solid #6a311f;
   border-radius: 0 6px 6px;
   margin: 1rem;
+  margin-top: 2rem;
 }
 
 .card-body {
@@ -88,7 +89,44 @@ nav a:hover {
   position: relative;
 }
 
+section {
+  padding: 1.3rem;
+}
 
+.wrapper {
+  flex-wrap: nowrap;
+  max-width: 45em;
+}
+
+.recipes,
+.careers,
+.fundraising,
+.events {
+  margin:  auto;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.card-img {
+  width: 30%;
+  padding-right: 1.5rem;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #6a311f;
+  padding-top: 1rem;
+}
+
+section p {
+  margin: 0;
+}
 
 
 
@@ -171,6 +209,10 @@ nav a:hover {
   nav ul {
     text-align: right;
     justify-content: flex-end;
+  }
+
+  .wrapper {
+    display: flex;
   }
 
 }
