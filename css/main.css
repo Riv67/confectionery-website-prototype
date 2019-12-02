@@ -237,6 +237,14 @@ section p {
     justify-content: flex-end;
   }
 
+  .wrapper {
+    margin: 0 4rem;
+  }
+
+  .card-img {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
