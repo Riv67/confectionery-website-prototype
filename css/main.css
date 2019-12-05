@@ -51,6 +51,7 @@ nav ul {
   font-size: 1.125rem;
   padding: 0;
   margin: 0;
+  border-radius: 8px;
 }
 
 nav a:hover {
@@ -66,7 +67,7 @@ nav a:hover {
 .card {
   overflow: hidden;
   border: 3px solid #6a311f;
-  border-radius: 0 6px 6px;
+  border-radius: 8px;
   margin: 1rem;
   margin-top: 2rem;
 }
@@ -137,9 +138,31 @@ section p {
   margin: 0;
 }
 
+.banner {
+  background-color: #ec7f3a;
+}
 
+.banner p {
+  padding: .5rem;
+}
 
+.btn {
+  font-size: 1.125rem;
+  color: #6a311f;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  border-style: solid;
+  border-width: 3px;
+}
 
+.btn:hover {
+  color: #fff;
+  background-color: #6a311f;
+  border-color: #6a311f;
+}
 
 
 
@@ -180,7 +203,7 @@ section p {
 
   .card-body {
     color: #fff;
-    background-color: rgba(87, 50, 40, 0.4);
+    background-color: #cdb6a2;
     border-radius: 10px;
     width: 22rem;
     position: absolute;
@@ -223,9 +246,13 @@ section p {
   }
 
   header h1 {
-    padding: .5em .75em;
+    padding: .5em .75rem;
+    max-width: 23rem;
   }
 
+  nav a {
+    padding: .5em .5em;
+  }
   li {
     white-space: nowrap;
     padding: 0;
