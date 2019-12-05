@@ -24,15 +24,15 @@ body {
 
 header {
   color: #fff;
-  background-color: #a12d21;
+  background-color: #b13629;
   font-family: 'Oswald', sans-serif;
 }
 
 header h1 {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   text-align: center;
   margin: 0;
-  padding: .75em 0 .5em;
+  padding: .75em .125em .5em;
 }
 
 a:link,
@@ -80,7 +80,7 @@ nav a:hover {
 .card-label {
   font-weight: bold;
   padding: .3rem 1rem .3rem calc(1rem - 4px);
-  border-left: 4px solid #ec7f3a;
+  border-left: 6px solid #b13629;
   background-color: #fff;
   position: absolute;
   left: 0;
@@ -148,28 +148,29 @@ section p {
 }
 
 .banner {
-  background-color: #ec7f3a;
+  background-color: #b13629;
 }
 
 .banner p {
   padding: .5rem;
+  margin-bottom: .75rem;
 }
 
 .btn {
   font-family: 'Oswald', sans-serif;
   font-size: 1.25rem;
-  color: #6a311f;
   padding: .4em .75em .3em;
-  border-radius: 8px;
+  margin-left: auto;
+  margin-right: 0;
   text-align: center;
   width: 10rem;
   display: inline-block;
+  border-radius: 8px;
   border-style: solid;
   border-width: 3px;
 }
 
 .btn:hover {
-  color: #fff;
   background-color: #6a311f;
   border-color: #6a311f;
 }
@@ -198,7 +199,16 @@ section p {
     line-height: 1.4;
   }
 
-  li {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
     width: 25%;
     text-align: center;
   }
@@ -240,6 +250,20 @@ section p {
     width: 40%;
     padding-right: .5rem;
   }
+
+  .banner p {
+    max-width: 20rem;
+    display: inline-block;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0;
+    font-size: 1.75rem;
+    padding: .3em .75em .3em;
+    width: 15rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -256,20 +280,23 @@ section p {
   }
 
   header h1 {
-    padding: .5em .75rem;
-    max-width: 23rem;
+    padding: .25em .75rem;
+    margin: 0;
   }
 
-
   li {
-    white-space: nowrap;
-    padding: 0;
-    width: auto;
+    padding: 1rem;
   }
 
   nav ul {
     text-align: right;
     justify-content: flex-end;
+  }
+
+  a:link,
+  a:visited {
+    display: inline-block;
+    padding: .5rem;
   }
 
   .wrapper {
