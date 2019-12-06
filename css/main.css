@@ -260,14 +260,16 @@ section p {
   }
 
   .banner p {
-    max-width: 18rem;
+    max-width: 20rem;
     display: inline-block;
-    margin: 0;
+    margin: -10px;
+    padding-left: 3rem;
   }
 
   .btn {
     font-size: 1.5rem;
     width: 12rem;
+    right: 2.5rem;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -320,6 +322,24 @@ section p {
 
   .card-img {
     width: 50%;
+  }
+
+  .banner p {
+    max-width: 30rem;
+    display: inline-block;
+    margin: 25px;
+    padding-left: 5rem;
+  }
+
+  .btn {
+    right: 7rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .btn a {
+    top: 50%;
+    transform: translateY(-50%);
   }
 
 }
