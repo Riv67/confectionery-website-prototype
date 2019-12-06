@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #eee4de;
+  background-color: #e4dad3;
 }
 
 header {
@@ -156,6 +156,9 @@ section p {
   margin-bottom: .75rem;
 }
 
+.banner a {
+  color: #fff;
+}
 .btn {
   font-family: 'Oswald', sans-serif;
   font-size: 1.25rem;
@@ -172,10 +175,18 @@ section p {
 
 .btn:hover {
   background-color: #6a311f;
-  border-color: #6a311f;
 }
 
+.footer {
+  background-color: #cdb6a2;
+  margin-top: 2rem;
+  padding: 1rem;
+}
 
+.copyright {
+  font-size: 70%;
+  width: 100%;
+}
 
 
 @media only screen and (min-width: 25em) {
